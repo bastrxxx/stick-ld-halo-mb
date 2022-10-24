@@ -386,7 +386,10 @@ main {
 }
 
 #duatop .modal-dialog .modal-content .content {
-  margin-top: calc(130px * var(--ratio));
+  margin-top: calc(80px * var(--ratio));
+  height: 50vh;
+  overflow-y: scroll;
+  padding-bottom: calc(80px * var(--ratio));
 }
 
 #duatop .modal-dialog .modal-content .content h3 {
@@ -626,9 +629,8 @@ main {
   #duatop .modal-dialog .modal-content .content p {
     font-size: 14px;
   }
-  #duatop .modal-dialog .modal-content .content {
-    height: 60vh;
-    overflow-y: scroll;
+  #duatop .modal-dialog .modal-content .content p strong {
+    font-size: 16px;
   }
 }
 

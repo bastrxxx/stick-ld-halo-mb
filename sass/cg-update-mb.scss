@@ -54,7 +54,7 @@ main {position: relative;}
 #duatop{
   .modal-dialog{max-width: 700px;max-height: 700px;
     .modal-content{height: 100%;background: url(../images/bgpop.png) no-repeat top center;
-      .content{margin-top:calc(130px * var(--ratio));
+      .content{margin-top:calc(80px * var(--ratio));height: 50vh;overflow-y: scroll;padding-bottom: calc(80px * var(--ratio));
         h3{font-weight: 700;text-shadow: 2px 2px 2px #f5aa28, -2px -2px 2px #f5aa28;}
         p{font-size:calc(20px * var(--ratio));
         strong{font-size:calc(25px * var(--ratio));}
@@ -150,7 +150,7 @@ main {position: relative;}
   .footer .footer-content p{font-size: 12px;}
   .fullcontent .container2 h4 img{width: 25px;}
   #duatop .modal-dialog .modal-content .content p{font-size: 14px;}
-  #duatop .modal-dialog .modal-content .content{height: 60vh;overflow-y: scroll;}
+  #duatop .modal-dialog .modal-content .content p strong{font-size: 16px;}
 }
 @media (max-width: 320px) {
   :root {--ratio:0.41;}
